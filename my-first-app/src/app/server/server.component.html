@@ -1,0 +1,8 @@
+Inside server component
+<!-- <p [ngStyle] = "{backgroundColor:getColor()}" -->
+    [ngClass]="{ online: serverStatus === 'online'}">
+    {{'Server'}} with Id: {{serverId}}  Status: {{getServerStatus()}}
+</p>
+<input type="text" [(ngModel)] = "userName" /><br/>
+<p>User name: {{userName}}</p>
+<button [disabled] ="userName ==''" (click)= "resetUserName()">Reset user name</button>

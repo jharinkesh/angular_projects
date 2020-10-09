@@ -1,0 +1,84 @@
+
+## Library link
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+## The Bootstrap grid system has four classes:
+
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+e.g.
+<div class="col-sm-4">.col-sm-4</div>
+
+## Contextual Colors and Backgrounds
+
+The classes for text colors are:.text-muted, .text-primary, 
+.text-success, .text-info, .text-warning, and .text-danger:
+
+<p class="text-muted">This text is muted.</p>
+
+The classes for background colors are:
+.bg-primary, .bg-success, .bg-info, .bg-warning, and .bg-danger:
+
+More Typography Classes
+.lead	Makes a paragraph stand out	
+.small	Indicates smaller text (set to 85% of the size of the parent)	
+.text-left	Indicates left-aligned text	
+.text-center	Indicates center-aligned text	
+.text-right	Indicates right-aligned text	
+.text-justify	Indicates justified text	
+.text-nowrap	Indicates no wrap text	
+.text-lowercase	Indicates lowercased text	
+.text-uppercase	Indicates uppercased text	
+.text-capitalize	Indicates capitalized text	
+.initialism	Displays the text inside an <abbr> element in a slightly smaller font size	
+.list-unstyled	Removes the default list-style and left margin on list items (works on both <ul> and <ol>). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)	
+.list-inline	Places all list items on a single line	
+.dl-horizontal	Lines up the terms (<dt>) and descriptions (<dd>) in <dl> elements side-by-side. Starts off like default <dl>s, but when the browser window expands, it will line up side-by-side	
+.pre-scrollable	Makes a <pre> element scrollable
+
+
+### TABLE 
+
+table            : adds basic styling to a table:
+table-striped    : adds zebra-stripes to a table:
+table-bordered   : adds borders on all sides of the table and cells:
+table-hover      : adds a hover effect (grey background color) on table rows:
+table-responsive : class creates a responsive table
+
+<tr class="success"> danger, warning, active
+
+### Bootstrap Image Shapes
+
+img-rounded 
+img-thumbnail
+img-circle
+img-responsive 
+
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+### Jumbotron and page header
+jumbotron   - A big box
+page-header - to create a page header:
+
+### Well
+The .well class adds a rounded border around an element 
+with a gray background color and some padding:
+
+<div class="well well-sm">Small Well</div>
+<div class="well well-lg">Large Well</div>
+
+### 

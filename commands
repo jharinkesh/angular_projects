@@ -1,0 +1,14 @@
+# Install angular
+npm install @angular/cli@latest
+
+#create new app
+ng new my-first-app
+
+#Run the app
+ng serve
+
+#Install bootstrap 3
+npm install --save bootstrap@3
+
+#create a new component
+ng g c servers
